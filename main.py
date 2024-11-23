@@ -27,4 +27,5 @@ def longest_common_subsequence(X, Y):
             j -= 1
     
     lcs.reverse()  # Since we backtracked, reverse the list to get the correct order
-    return dp[m][n], ''.join(lcs)
+    return dp[m][n]
+
